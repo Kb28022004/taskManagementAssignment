@@ -1,0 +1,29 @@
+# Monorepo Root GitIgnore
+node_modules/
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+.next/
+.expo/
+
+# IDE files
+.vscode/
+.idea/
+
+# Backend specific
+backend/dist/
+backend/node_modules/
+
+# Frontend specific
+frontend/.next/
+frontend/node_modules/
+
+# Mobile specific
+mobile/node_modules/
+mobile/.expo/
